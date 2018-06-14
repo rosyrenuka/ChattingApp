@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.chattingapp.Contact_Detail">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="250dp"
+          android:id="@+id/background_image"
+          android:background="@drawable/contactwallpaper4"
+          />
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/profile_image1"
+          android:layout_width="130dp"
+          android:src="@drawable/img1491037327901"
+          android:layout_height="200dp"
+          android:transitionName="imageTransition"
+          app:civ_border_width="2dp"
+          android:layout_centerHorizontal="true"
+          android:elevation="1dp"
+          app:civ_border_color="#FF000000"/>
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="42dp"
+          android:textSize="24dp"
+          android:textStyle="bold"
+          android:transitionName="nameTransition"
+          android:gravity="center_horizontal"
+          android:id="@+id/profile_name"
+          android:text="NAME"
+          android:layout_marginTop="180dp"/>
+
+
+
+  </RelativeLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
