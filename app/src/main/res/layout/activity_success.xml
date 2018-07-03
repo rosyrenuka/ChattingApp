@@ -57,10 +57,7 @@
 
       </LinearLayout>
 
-
-
    </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -98,6 +95,7 @@
            android:layout_width="350dp"
            android:orientation="horizontal"
            android:layout_marginTop="20dp"
+           android:id="@+id/group"
            android:layout_height="wrap_content">
            <RadioButton
                android:layout_width="160dp"
@@ -138,7 +136,6 @@
             android:id="@+id/phone_number"
             android:text="phone number"/>
 
-
         </LinearLayout>
 
         <Button
@@ -151,10 +148,8 @@
             android:textColor="#fff"
             android:textSize="14dp"
             android:id="@+id/go"
-            android:textStyle="italic
-" />
+            android:textStyle="italic" />
 
     </LinearLayout>
-
 
 </LinearLayout>
